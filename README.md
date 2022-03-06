@@ -1,24 +1,8 @@
-# README
+# Bookstore (kinda)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the start of another web design project using Rails.
 
-Things you may want to cover:
+The plan at the moment is to create a website to showcase an author's current books.
+Everything is subject to change and this is currently not just a show case on their writing but on my coding skills as well.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+So for the love of butter, please don't scream at me if I make a mess lmao.
