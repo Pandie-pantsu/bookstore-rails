@@ -9,6 +9,9 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.2"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+# Ruby linter for any code smells and formatting errors
+gem 'rubocop', '~> 1.25', '>= 1.25.1'
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
