@@ -45,8 +45,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# Use Sass to process CSS
-# gem "sassc-rails"
+# A modern CSS framework based on Flexbox.
+gem "bulma-rails", "~> 0.9.3"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -66,11 +66,15 @@ group :development do
   # Guard automates various tasks by running custom rules whenever file or directories are modified.
   gem 'guard'
 
+  # Better Errors replaces the standard Rails error page with a much better and more useful error page.
+  gem "better_errors"
+  gem "binding_of_caller"
+
   # LiveReload guard allows to automatically reload your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', require: false
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem "spring"
 end
 
 group :test do
