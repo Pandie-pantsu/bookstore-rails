@@ -63,6 +63,12 @@ group :development do
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
+  # Guard automates various tasks by running custom rules whenever file or directories are modified.
+  gem 'guard'
+
+  # LiveReload guard allows to automatically reload your browser when 'view' files are modified.
+  gem 'guard-livereload', '~> 2.5', require: false
+
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
